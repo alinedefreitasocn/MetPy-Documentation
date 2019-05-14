@@ -1,0 +1,16 @@
+A função dewpoint_rh utiliza a temperatura (em Kelvin) e a umidade relativa (variando de 0 a 1) como entrada para calcular o dewpoint.
+Retorna os valores de ponto de orvalho em Celcius!
+
+**************************************************************************************
+#           DOCUMENTAÇÃO ORIGINAL
+**************************************************************************************
+metpy.calc.dewpoint_rh(temperature, rh)
+
+Calculate the ambient dewpoint given air temperature and relative humidity.
+
+Parameters:	
+temperature – Air temperature em Kelvin
+rh (pint.Quantity) – Relative humidity expressed as a ratio in the range 0 < rh <= 1
+Returns:	
+
+
